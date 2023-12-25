@@ -11,7 +11,7 @@ import Course from "../Course";
 import Loading from "../Loading";
 import { Center, ErrorMessage } from "../styles/Global.styled";
 
-export default function Slider() {
+export default function SliderBox() {
   const [selected, setSelected] = useState({
     position: 0,
     id: null,

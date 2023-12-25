@@ -3,7 +3,7 @@ import GlobalStyles from "./components/styles/Global.styled";
 import { Provider } from "react-redux";
 import store from "./store/store";
 import CourseItems from "./components/CourseItems";
-import Slider from "./components/slider";
+import SliderBox from "./components/SliderBox";
 
 const theme = {
   mobile: "768px",
@@ -16,7 +16,7 @@ function App() {
         <GlobalStyles />
         <Provider store={store}>
           <CourseItems />
-          <Slider />
+          <SliderBox />
         </Provider>
       </ThemeProvider>
     </>
