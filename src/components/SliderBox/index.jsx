@@ -38,8 +38,6 @@ export default function SliderBox() {
       </Center>
     );
 
-    console.log(selected);
-
   if (error) return <ErrorMessage>An error occurred: {error.message}</ErrorMessage>;
 
   return (
